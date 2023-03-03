@@ -6,8 +6,8 @@ WEIGHT_KG = "84"
 HEIGHT_CM = "190"
 AGE = "23"
 
-APP_ID = "2b596a57"
-API_KEY = "9cce9df7772b1568af8edf8ac391d289"
+APP_ID = "YOUR ID"
+API_KEY = "YOUR APİ KEY"
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/ab77af4579b894ed908d2f763f1f9ca0/antrenmanlarım/sayfa1"
@@ -50,8 +50,8 @@ for exercise in result["exercises"]:
         sheet_endpoint,
         json=sheet_inputs,
         auth=(
-            "habip",
-        "hdasdusaf0ka",
+            "NAEM ",
+        "TOKEN",
         )
     )
 
